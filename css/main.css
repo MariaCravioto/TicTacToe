@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #B0C4DE;
+  font-family: 'Rock Salt', cursive;
+}
+
+.tictac{
+  background-color: #008B8B;
+  border-radius: 50px;
+  color: #FFF;
+  font-size: 40px;
+  height: 300px;
+  margin-left: 500px;
+  margin-top: 100px;
+  text-align: center;
+  width: 300px;
+}
+
+/*
+*horizontal lines
+*/
+.row{
+  height: 100px;
+}
+
+.row:not(:last-child){
+  border-bottom: 1px solid #000;
+}
+
+/*
+*vertical lines
+*/
+.cell{
+  height: 100px;
+  float: left;
+  width: 100px;
+}
+
+.cell:not(:last-child){
+  border-right: 1px solid #000;
+}
+
+#startButton{
+  float: left;
+  font-family: 'Rock Salt', cursive;
+  height: 40px;
+  margin-left: 600px;
+  margin-top: 20px;
+  width: 100px;
+}
